@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      font-family:'Nunito';
+      font-weight: 300;
+      background-color:  hsl(217, 54%, 11%);
+       
+
+    }
+
+    p{
+
+      font-size: 18px;
+    }
+
+
+    .card{
+
+      background-color: hsl(216, 50%, 16%);
+
+      width: 20%;
+      border-radius: 20px;
+
+      position: relative;
+      left: 600px;
+
+      top: 50px;
+      padding: 1px 10px;
+  
+      
+    }
+
+    .image-equilibrium{
+      width: 98%;
+      border-radius: 9px;
+
+
+      position: relative;
+      align-items: center;
+      top: 20px;
+      left: 2.5px;
+      
+      
+      
+    
+    }
+
+    .white-text{
+      
+      color: hsl(0, 0%, 100%);
+      font-weight: 600;
+      font-size: 20px;
+      font-style: bold;
+      position: relative;
+      left: 2.5px;
+      
+
+    }
+
+    .white-text:hover{
+      color:hsl(178, 100%, 50%);
+      transition: 1s;
+    }
+    .calm{
+      color: rgba(115,137,165,255);
+    }
+    .ether{
+
+
+      color: rgba(42,203,215,255);
+
+    }
+
+
+
+    .ether-time{
+      align-items: right;
+      color:hsl(0, 0%, 100%);
+      position: relative;
+      left: 220px;
+      bottom: 41px;
+      color:rgba(115,137,165,255);
+
+
+      
+    }
+
+
+    .line{
+
+      width: 96%;
+      position: relative;
+      bottom: 40px;
+      color:rgba(115,137,165,255);
+    }
+
+
+    .avatar{
+      position: relative;
+      bottom: 20px;
+      width: 15%;
+      border-radius: 50%;
+      border-width: 2px;
+      border-color:hsl(0, 0%, 100%);
+    }
+
+    .ether-time2{
+      position: relative;
+      
+      left: 79px;
+      bottom: 75px;
+      color:rgba(115,137,165,255);
+    }
+
+    .bold-text{
+      color: white;
+      font-weight: 1000;
+      font-style: bold;
+    }
+    .bold-text:hover{
+      color:  hsl(178, 100%, 50%);
+      transition: 1s;
+
+    }
+
+.eye{
+  position: relative;
+  bottom: 20px;
+  left: 130px;
+}
+
+  </style>
+</head>
+<body>
+
+  <div class='card'>
+
+    <img src = './images/image-equilibrium.jpg' class='image-equilibrium'>
+    <h3 class='white-text'> Equilibrium #3429</h3>
+  
+
+    <h5 class ='calm'>Our Equilibrium collection promotes balance and calm. lore  </h5>
+    <h5 class ='ether'><svg width="11" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg> 0.041 ETH</h5>  <h5 class ='ether-time'><svg width="17" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/></svg> 
+      3 days left</h5>
+      <hr class='line'> 
+
+
+<img src='./images/image-avatar.png' class='avatar'>   <h5 class ='ether-time2'>Creation of <b class='bold-text'>Jules Wyvern</b> </h5>
+          
+      
+    </div>
+
+
+
+
+
+
+
+
+
+  
+
+    
+  </div>
+</body>
+</html>
